@@ -6,6 +6,7 @@
 <img alt="Lines of code" src="https://img.shields.io/tokei/lines/github/andykr1k/StockDataScraper?style=for-the-badge">
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/andykr1k/StockDataScraper?color=blue&style=for-the-badge">
 <img alt="PyPI" src="https://img.shields.io/pypi/v/yfinance?color=blue&style=for-the-badge">
+<img alt="PyPI - Status" src="https://img.shields.io/pypi/status/yfinance?style=for-the-badge">
 <img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/andykr1k/StockDataScraper?style=for-the-badge">
 </div>
 
