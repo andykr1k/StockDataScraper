@@ -11,33 +11,32 @@
 </div>
 
 # To begin program:
-## Getting Started
-### Create Enviroment
+## Create Enviroment
 ```
 python3 -m venv env
 ```
 
-### Start Enviroment
+## Start Enviroment
 ```
 source env/bin/activate
 ```
 
-### Install Packages 
+## Install Packages 
 ```
 pip install yfinance
 ```
 
-### Install Source Code
+## Install Source Code
 ```
 git clone https://github.com/andykr1k/StockDataScraper.git
 ```
 
-### Run Program
+## Run Program
 ```
 python3 Scraper.py {Ticker}
 ```
 
-### Don't Forget to Deactivate your Enviroment!
+## Don't Forget to Deactivate your Enviroment!
 ```
 deactivate
 ```
