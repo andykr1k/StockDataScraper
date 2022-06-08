@@ -4,6 +4,7 @@
 <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/andykr1k/StockDataScraper?style=for-the-badge">
 <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/andykr1k/StockDataScraper?style=for-the-badge">
 <img alt="Lines of code" src="https://img.shields.io/tokei/lines/github/andykr1k/StockDataScraper?style=for-the-badge">
+<a href="https://www.codefactor.io/repository/github/andykr1k/stockdatascraper"><img src="https://www.codefactor.io/repository/github/andykr1k/stockdatascraper/badge" alt="CodeFactor" /></a>
 </div>
 
 # To begin program:
