@@ -1,6 +1,6 @@
 # Stock Data Scraper (Python)
-<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/andykr1k/StockDataScraper">
-
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/andykr1k/StockDataScraper?style=for-the-badge">
+<img alt="Lines of code" src="https://img.shields.io/tokei/lines/github/andykr1k/StockDataScraper?style=for-the-badge">
 # To begin program:
 ## Getting Started
 ### Create Enviroment
