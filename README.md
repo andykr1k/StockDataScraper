@@ -27,6 +27,11 @@ source env/bin/activate
 pip install yfinance
 ```
 
+### Install Source Code
+```
+git clone https://github.com/andykr1k/StockDataScraper.git
+```
+
 ### Run Program
 ```
 python3 Scraper.py {Ticker}
