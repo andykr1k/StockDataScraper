@@ -1,5 +1,7 @@
-# To begin program:
+# Stock Data Scraper (Python)
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/andykr1k/StockDataScraper">
 
+# To begin program:
 ## Getting Started
 ### Create Enviroment
 #### python3 -m venv env

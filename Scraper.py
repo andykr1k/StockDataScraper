@@ -23,6 +23,7 @@ def get_strat(ticker):
         print('The stock is up')
     else:
         print('The stock is down')
+
 print(get_close_price(ticker))
 print(get_open_price(ticker))
 print(get_strat(ticker))
