@@ -1,14 +1,17 @@
-To begin program:
+# To begin program:
 
-1-
+## Getting Started
+### Create Enviroment
+#### python3 -m venv env
 
-source env/bin/activate
+### Start Enviroment
+#### source env/bin/activate
 
-2-
+### Install Packages
+#### npm install yfinance
 
-python3 Scraper.py {Ticker}
+### Run Program
+#### python3 Scraper.py {Ticker}
 
-
-3- Deactivate
-
-deactivate
+### Don't Forget to Deactivate your Enviroment!
+#### deactivate
