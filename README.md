@@ -2,6 +2,7 @@
 
 <div>
 <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/andykr1k/StockDataScraper?style=for-the-badge">
+<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/andykr1k/StockDataScraper?style=for-the-badge">
 <img alt="Lines of code" src="https://img.shields.io/tokei/lines/github/andykr1k/StockDataScraper?style=for-the-badge">
 </div>
 
@@ -14,7 +15,7 @@
 #### source env/bin/activate
 
 ### Install Packages
-#### npm install yfinance
+#### pip install yfinance
 
 ### Run Program
 #### python3 Scraper.py {Ticker}
