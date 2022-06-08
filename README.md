@@ -7,7 +7,7 @@
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/andykr1k/StockDataScraper?color=blue&style=for-the-badge">
 <img alt="PyPI" src="https://img.shields.io/pypi/v/yfinance?color=blue&style=for-the-badge">
 <img alt="PyPI - Status" src="https://img.shields.io/pypi/status/yfinance?style=for-the-badge">
-<img alt="GitHub issues" src="https://camo.githubusercontent.com/74ea41788202ee71006bfa5b8ad5ba83e058f1c3be6a517870ccf81aa1867ade/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732d7261772f616e64796b72316b2f53746f636b44617461536372617065723f7374796c653d666f722d7468652d6261646765">
+<img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/andykr1k/StockDataScraper?style=for-the-badge">
 </div>
 
 # To begin program:
