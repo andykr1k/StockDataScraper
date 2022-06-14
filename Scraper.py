@@ -14,16 +14,22 @@ def get_open_price(ticker):
     return open_price
 
 def get_strat(ticker):
+    stringStrat = ""
+
     stock_info = yf.Ticker(ticker).info
+
     close_price = get_close_price(ticker)
     open_price = get_open_price(ticker)
-    if close_price == open_price:
-        print('The stock is flat')
-    elif close_price > open_price:
-        print('The stock is up')
-    else:
-        print('The stock is down')
 
-print(get_close_price(ticker))
-print(get_open_price(ticker))
+    if close_price == open_price:
+        stringStrat = "No Change"
+    elif close_price > open_price:
+        stringStrat = "Bullish"
+    else:
+        stringStrat = "Bearish"
+
+    return stringStrat
+
+print("Close Price: ", get_close_price(ticker))
+print("Open Price: ", get_open_price(ticker))
 print(get_strat(ticker))
