@@ -37,7 +37,7 @@ def get_strat(ticker):
 
 msft = yf.Ticker("MSFT")
 
-stockinfo = msft.info
+#stockinfo = msft.info
 
 #for key,value in stockinfo.items():
     #print(key,":",value)
@@ -45,17 +45,16 @@ stockinfo = msft.info
 #numshares = msft.info['sharesOutstanding']
 #print(numshares)
 
-df = msft.dividends
+df_dividends = msft.dividends
+df_price = msft.history(period='max')
 #print(df)
+#print(df_price)
 
-data = df.resample('Y').sum()
-
-data = data.reset_index()
-
-data['Year'] = data['Date'].dt.year
-
+data_dividends = df_dividends.resample('Y').sum()
+data_dividends = data_dividends.reset_index()
+data_dividends['Year'] = data_dividends['Date'].dt.year
 plt.figure()
-plt.bar(data['Year'], data['Dividends'])
+plt.bar(data_dividends['Year'], data_dividends['Dividends'])
 plt.ylabel('Dividends')
 plt.xlabel('Year')
 plt.title('MSFT Dividends')
