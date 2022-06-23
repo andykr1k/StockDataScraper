@@ -9,9 +9,9 @@ tickers = []
 titleName = ""
 
 for argument in arguments:
-    if argument > 1 and argument < len(arguments):
-        tickers.append(arguments[argument].upper())
-        titleName += arguments[argument].upper() + " "
+    if argument != "comparePrices.py":
+        tickers.append(argument.upper())
+        titleName += argument.upper() + " "
 
 df = pd.DataFrame()
 today = datetime.now().date().strftime('%Y-%m-%d')
@@ -25,5 +25,5 @@ plt.figure()
 plt.plot(df)
 plt.ylabel('Price')
 plt.xlabel('Date')
-plt.title(titleName + ' Dividends')
+plt.title(titleName + ' Price Comparison')
 plt.show()
