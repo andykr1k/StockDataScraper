@@ -46,7 +46,21 @@ stockinfo = msft.info
 #print(numshares)
 
 df = msft.dividends
-print(df)
+#print(df)
+
+data = df.resample('Y').sum()
+
+data = data.reset_index()
+
+data['Year'] = data['Date'].dt.year
+
+plt.figure()
+plt.bar(data['Year'], data['Dividends'])
+plt.ylabel('Dividends')
+plt.xlabel('Year')
+plt.title('MSFT Dividends')
+plt.xlim(2001,2021)
+plt.show()
 
 #print("Close Price: ", get_close_price(ticker))
 #print("Open Price: ", get_open_price(ticker))
