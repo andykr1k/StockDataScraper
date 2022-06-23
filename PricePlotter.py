@@ -2,7 +2,6 @@ import sys
 import pandas as pd
 import matplotlib.pyplot as plt
 from datetime import datetime, timedelta
-
 import yfinance as yf
 
 arg1 = sys.argv[1]
@@ -17,5 +16,5 @@ plt.figure()
 plt.plot(df_price)
 plt.ylabel('Price')
 plt.xlabel('Date')
-plt.title(tickerName + ' Dividends')
+plt.title(tickerName + ' Price Plot')
 plt.show()

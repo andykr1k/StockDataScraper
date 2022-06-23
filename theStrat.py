@@ -11,10 +11,12 @@ ticker = yf.Ticker(arg1)
 today = datetime.now().date().strftime('%Y-%m-%d')
 lastYearToday = (datetime.now() - timedelta(days=365)).date().strftime('%Y-%m-%d')
 df_price = ticker.history(start=lastYearToday, end=today)
-fourDf = df_price[4:]
+fourDf = df_price[:4]
 resultHigh = fourDf.High.values
 resultLow = fourDf.Low.values
 stratNumbers = []
+
+print(fourDf)
 
 #Day Before calcs
 if resultHigh[0] < resultHigh[1]:
@@ -77,8 +79,3 @@ elif resultHigh[2] > resultHigh[3]:
         stratNumbers.append(1)
 
 print(stratNumbers)
-
-if current == 2:
-    if yesterday == 2:
-        if dayBefore == 2:
-            print("Works")
