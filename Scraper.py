@@ -1,7 +1,12 @@
-import yfinance as yf
 import sys
+import pandas as pd
+import matplotlib as plt
+from datetime import datetime
 
-ticker = sys.argv[1]
+import yfinance as yf
+
+
+#ticker = sys.argv[1]
 
 def get_close_price(ticker):
     stock_info = yf.Ticker(ticker).info
@@ -30,6 +35,20 @@ def get_strat(ticker):
 
     return stringStrat
 
-print("Close Price: ", get_close_price(ticker))
-print("Open Price: ", get_open_price(ticker))
-print(get_strat(ticker))
+msft = yf.Ticker("MSFT")
+
+stockinfo = msft.info
+
+#for key,value in stockinfo.items():
+    #print(key,":",value)
+
+#numshares = msft.info['sharesOutstanding']
+#print(numshares)
+
+df = msft.dividends
+print(df)
+
+#print("Close Price: ", get_close_price(ticker))
+#print("Open Price: ", get_open_price(ticker))
+#print(get_strat(ticker))
+
